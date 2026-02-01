@@ -9,6 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class ServiceTestingApplication {
 
 	public static void main(String[] args) {
+        System.out.println("invoking application contact which is implementation of oic container");
 		SpringApplication.run(ServiceTestingApplication.class, args);
 	}
 
